@@ -1,0 +1,9 @@
+<h2>Message Posts</h2>
+<div>
+    {% for post in post_list %}
+        <h4>{{post.author }}</h4>
+        <p>{{post.text }}</p>
+        <p>{{post.created_at}}</p>
+
+    {% endfor %}
+</div>
